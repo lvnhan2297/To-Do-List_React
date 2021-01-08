@@ -2,14 +2,7 @@ import './App.css';
 import React , {useState} from 'react';
 
 const App = () => {
-  const [todos, setTodos] = useState([ {
-    text: 'Share hööks with the bretheren',
-    isComplete: false
-  },
-  {
-    text: 'Ask bröther if you may have höök',
-    isComplete: false
-  }]);
+  const [todos, setTodos] = useState([]);
 
   const [dataInput,setDataInput] = useState('');
   const handleChange = (e) =>{
